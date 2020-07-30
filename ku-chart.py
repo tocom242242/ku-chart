@@ -4,8 +4,6 @@ from oandapyV20 import API
 import oandapyV20.endpoints.instruments as instruments
 from scipy.stats import rankdata
 import pandas as pd
-import matplotlib.pyplot as plt
-import numpy as np
 
 
 def get_close_list(instrument="USD_JPY"):
